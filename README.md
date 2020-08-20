@@ -1,1 +1,1 @@
-#(Personal website)[https://quinnb.me]
+# [Personal website](https://quinnb.me)
