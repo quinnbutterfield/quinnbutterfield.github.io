@@ -3,7 +3,7 @@ import './App.css'
 
 import '@mantine/core/styles.css';
 
-import { Button, MantineProvider, Text, Title, createTheme, MantineColorsTuple, Accordion } from '@mantine/core';
+import { Button, MantineProvider, Text, Title, createTheme, MantineColorsTuple, Accordion, Card } from '@mantine/core';
 import Fuzztext from './Fuzztext';
 
 
@@ -76,9 +76,13 @@ function App() {
               Click here to erase your regrets
             </Button>
           </div>
+          <Card>
+            <Title order={3}>Travel Diaries</Title>
           <Accordion defaultValue={''}>
             {items}  
-          </Accordion>          
+          </Accordion> 
+          </Card>
+                   
           </>
 
 
