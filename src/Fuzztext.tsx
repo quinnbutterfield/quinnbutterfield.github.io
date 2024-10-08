@@ -1,4 +1,4 @@
-import { Title, getThemeColor } from "@mantine/core";
+import { Title } from "@mantine/core";
 import { useEffect, useState } from "react";
 
 interface FuzztextProps {

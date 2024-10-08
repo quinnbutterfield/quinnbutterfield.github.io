@@ -1,16 +1,15 @@
-import { useState } from 'react'
+
 import './App.css'
 
 import '@mantine/core/styles.css';
 
-import { Button, MantineProvider, Text, Title, createTheme, MantineColorsTuple, Accordion, Card } from '@mantine/core';
+import { Button, MantineProvider, Title, createTheme, MantineColorsTuple, Accordion, Card } from '@mantine/core';
 import Fuzztext from './Fuzztext';
 
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   const goop: MantineColorsTuple = [
     '#e9fdf1',
@@ -68,11 +67,11 @@ function App() {
 
     <MantineProvider defaultColorScheme='dark' theme={theme}>
       {
-        <><h1>Firstname Lastname</h1>
+        <><h1>Quinn Butterfield</h1>
            <Fuzztext  text='overcoming entropy through overwhelming delusion'/>
 
           <div className="card">
-            <Button onClick={() => setCount((count) => count + 100)}>
+            <Button>
               Click here to erase your regrets
             </Button>
           </div>
